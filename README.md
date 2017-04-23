@@ -4,7 +4,7 @@
 
 This project is created from a ejected version of the facebook [create-react-app](https://github.com/facebookincubator/create-react-app)
 project and is integrated with [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-and another best practices. Some of the is not required to create this solution
+and another best practices. Some of the code is not required to create this solution
 but could be a good fit to a growing application.
 
 It uses essentially NodeJS, Yarn, Express, React and Material UI.
