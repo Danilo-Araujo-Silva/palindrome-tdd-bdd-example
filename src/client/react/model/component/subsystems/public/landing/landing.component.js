@@ -1,13 +1,14 @@
 import React from 'react';
 
-import properties from 'shared/configuration/properties';
+// import properties from 'shared/configuration/properties';
 
 import './landing.component.css';
 
 export class Landing extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return <div>
