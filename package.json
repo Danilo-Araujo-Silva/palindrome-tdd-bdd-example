@@ -1,6 +1,6 @@
 {
-  "name": "wow",
-  "version": "0.1.0",
+  "name": "shaw-and-partners-challenge-2",
+  "version": "0.9.0",
   "private": true,
   "dependencies": {
     "express": "^4.15.2",

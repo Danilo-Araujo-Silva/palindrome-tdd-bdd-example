@@ -1,45 +1,36 @@
-# WoW Palindromes
+# Shaw and Partners Challenge 2
 
-WoW Palindrome is a simple application to check if a entry is a palindrome or not.
 
-This project uses NodeJS, Yarn, Express, React and Material UI.
 
-## Another related projects
-In the same vein of this project, there are another projects of mine that aims to propose
-a skeleton/boilerplate to create applications with react, angular or rails (using webpack, react and angular).
+This project is created from a ejected version of the facebook [create-react-app](https://github.com/facebookincubator/create-react-app)
+project and is integrated with [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+and another best practices. Some of the is not required to create this solution
+but could be a good fit to a growing application.
 
-These projects are currently in development, but the source code of them could show a little of it's
-potential.
-
-All of them are using webpack 2 and integrating several UI libraries like: Material UI,
-Materialize CSS, Material Components Web, Material Design Lite, Bootstrap, Bootstrap Material, Ant Design, Angular Material, PrimeNG, React Toolbox and another ones, and including some extras like Google Material Icons, Font Awesome, Roboto font, Hover CSS, Animate CSS, etc.
-
-- [startup-mvp-boilerplate](https://github.com/Danilo-Araujo-Silva/startup-mvp-boilerplate/tree/dev/server/ruby/rails/startup-mvp-boilerplate-rails/app/assets/javascripts): Boilerplat to create startup mvps.
-- [ReactSkeleton](https://github.com/Danilo-Araujo-Silva/ReactSkeleton/tree/dev/src/model/react/component): Boilerplate to create react applications.
-- [AngularSkeleton](https://github.com/Danilo-Araujo-Silva/AngularSkeleton/tree/cli/src/js/main): Boilerplate to create Angular 2+ applications.
+It uses essentially NodeJS, Yarn, Express, React and Material UI.
 
 ## Installation
 
 ### Simple Installation
-- git clone https://github.com/Danilo-Araujo-Silva/wow.git
-- cd wow
+- git clone https://github.com/Danilo-Araujo-Silva/shaw-and-partners-challenge-2.git
+- cd shaw-and-partners-challenge-2
 - yarn install
 - npm start
 
 ### Detailed Installation
 
-#### Install NodeJS (Optional)
+#### Install NodeJS
 If you don't have NodeJS and NPM installed yet you can follow
 [these instructions](https://nodejs.org/en/download/package-manager/) in the
 official documentation.
 
-#### Install Latest NPM (Optional)
+#### Install Latest NPM
 If you already have npm installed and you would like update it to the latest
 version you can do it as follows:
 
 - npm install npm@latest -g
 
-#### Install Latest NodeJS (Optional)
+#### Install Latest NodeJS
 If you already have npm installed and you would like to update the NodeJS to the
 latest version you can do it as follows:
 
@@ -67,14 +58,7 @@ Running `npm start` two tasks (a client and a server one) will run simultaneousl
 The client react application will run at `localhost:10000` and the server express
 application will run at `localhost:10001`.
 
-To test only the express server you can use something like these:
-- `http://localhost:10001/checkPalindrome/A MAN A PLAN A CANAL PANAMA`
-- `http://localhost:10001/checkPalindrome/socorram-me subi no ônibus em marrocos`
-
 The server only allows traffic coming from `localhost:10000`.
-I did a little modification on the express server api pre-requisites. Instead of returning
-a 400 response to non palindrome entries I still return a 200 response, but with
-a message saying that the entry is not a palindrome.
 
 ## Author
-[Danilo Araújo Silva (silva.danilo.araujo@gmail.com)](https://docs.google.com/document/d/1jcflnEmzOL6t-LWoXQrx0mbNNaSoyA8n9F30msUXMuc#).
+[Danilo Araújo Silva (silva.danilo.araujo@gmail.com)](https://goo.gl/XW7hi3).
