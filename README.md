@@ -1,4 +1,4 @@
-# Shaw and Partners Challenge 2
+# Shaw and Partners Challenge 2 - TDD and BDD with a REST API
 
 This project is a simple application to test if a word, phrase or number is palindrome.
 
