@@ -2,12 +2,13 @@
 
 This project is a simple application to test if a word, phrase or number is palindrome.
 
+It uses TDD and BDD with [jest](https://facebook.github.io/jest/) to test the application.
+
 This project is created from a ejected version of the facebook [create-react-app](https://github.com/facebookincubator/create-react-app)
-project and is integrated with [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
 and another best practices. Some of the code is not required to create this solution
 but could be a good fit to a growing application.
 
-It uses essentially NodeJS, Yarn, Express, React and Material UI.
+It uses essentially NodeJS, Yarn, Express and Jest.
 
 ## Installation
 
@@ -15,7 +16,7 @@ It uses essentially NodeJS, Yarn, Express, React and Material UI.
 - git clone https://github.com/Danilo-Araujo-Silva/shaw-and-partners-challenge-2.git
 - cd shaw-and-partners-challenge-2
 - yarn install
-- npm start
+- npm run test
 
 ### Detailed Installation
 
@@ -52,13 +53,13 @@ will be placed in the `node_modules` folder (already ignored by `.gititnore`).
 
 #### Usage
 
-- npm start
+- npm run test
 
-Running `npm start` two tasks (a client and a server one) will run simultaneously.
-The client react application will run at `localhost:10000` and the server express
-application will run at `localhost:10001`.
+Running `npm run test` two tasks (a server and a test one) will run simultaneously.
+The server express application will run at `localhost:10001`.
 
-The server only allows traffic coming from `localhost:10000`.
+The server allows traffic from everywhere for now, but this could be changed when
+needed.
 
 ## Author
 [Danilo Araújo Silva (silva.danilo.araujo@gmail.com)](https://goo.gl/XW7hi3).
