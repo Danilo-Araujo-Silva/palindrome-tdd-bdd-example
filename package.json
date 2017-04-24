@@ -53,11 +53,10 @@
     "whatwg-fetch": "2.0.2"
   },
   "scripts": {
-    "client-react-start": "node scripts/start.js",
-    "client-react-build": "node scripts/build.js",
-    "client-react-test": "node scripts/test.js --env=jsdom",
+    "server-test": "node scripts/test.js --env=jsdom",
     "server-start": "node src/server/express/server.js",
-    "start": "BROWSER=none NODE_PATH=src PORT=10000 npm-run-all -p server-start client-react-start",
+    "test": "npm-run-all -p server-test",
+    "start": "BROWSER=none NODE_PATH=src PORT=10000 npm-run-all -p server-start",
     "postinstall": ""
   },
   "jest": {

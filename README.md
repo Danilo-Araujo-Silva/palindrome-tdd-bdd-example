@@ -1,6 +1,6 @@
 # Shaw and Partners Challenge 2
 
-
+This project is a simple application to test if a word, phrase or number is palindrome.
 
 This project is created from a ejected version of the facebook [create-react-app](https://github.com/facebookincubator/create-react-app)
 project and is integrated with [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
